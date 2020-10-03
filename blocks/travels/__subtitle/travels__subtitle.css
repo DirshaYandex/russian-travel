@@ -1,0 +1,22 @@
+.travels__subtitle {
+    max-width: 40rem;
+    max-height: 4.5rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    margin: 2rem auto 4rem auto;
+}
+
+@media all and (max-width: 768px) {
+    .travels__subtitle {
+        max-width: 18rem;
+        max-height: 2.5rem;
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+}

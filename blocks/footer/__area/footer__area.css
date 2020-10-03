@@ -1,0 +1,8 @@
+.footer__area {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5.75rem 3rem 1.5rem 3rem;
+    min-height: 1.125rem;
+}

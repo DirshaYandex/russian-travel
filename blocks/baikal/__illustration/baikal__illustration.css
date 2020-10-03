@@ -1,0 +1,12 @@
+.baikal__illustration {
+    width: 74rem;
+    height: 46.25rem;
+    object-fit: cover;
+    object-position: bottom;
+    opacity: 0.7;
+    margin: 0 3rem;
+}
+
+.baikal__illustration:hover {
+    opacity: 0.2;
+}

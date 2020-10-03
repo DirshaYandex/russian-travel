@@ -1,0 +1,13 @@
+.cards__link-title {
+    width: 28.5rem;
+    height: 0.75rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+    /* identical to box height, or 100% */
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+    margin: 0;
+}

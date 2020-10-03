@@ -1,0 +1,15 @@
+.baikal__title {
+    width: 35rem;
+    height: 9.5rem;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+    text-align: center;
+    margin: 0;
+}
+
+.baikal__title:hover {
+    opacity: 0.1;
+}
