@@ -1,12 +1,18 @@
 .cards__link {
-    width: 28.5rem;
     height: 1.375rem;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 1.125rem;
     line-height: 1.375rem;
-    /* identical to box height, or 122% */
     text-decoration-line: underline;
     margin-top: 0.75rem;
+    color: white;
+    text-decoration: underline;
+}
+
+@media all and (max-width: 767px) {
+    .cards__link {
+        display: none;
+    }
 }

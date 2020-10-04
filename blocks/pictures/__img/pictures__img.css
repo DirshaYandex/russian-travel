@@ -3,3 +3,25 @@
     height: 13.3125rem;
     object-fit: cover;
 }
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .pictures__img {
+        width: 18.75rem;
+        height: 14.0625rem;  
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .pictures__img {
+        width: 22rem;
+        height: 16.5rem;    
+    }
+}
+
+@media all and (max-width: 767px) {
+    .pictures__img {
+        width: 18rem;
+        height: 13.5rem;    
+    }
+}
+

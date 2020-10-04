@@ -12,10 +12,10 @@
     margin: 2rem auto 4rem auto;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .travels__subtitle {
-        max-width: 18rem;
-        max-height: 2.5rem;
+        width: 18rem;
+        height: 2.5rem;
         font-size: 1rem;
         line-height: 1.25rem;
     }

@@ -12,10 +12,10 @@
     margin: 0;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .travels__title {
-        max-width: 18rem;
-        max-height: 5.5rem;
+        width: 18rem;
+        height: 5.5rem;
         font-size: 2.5rem;
         line-height: 2.75rem;
     }

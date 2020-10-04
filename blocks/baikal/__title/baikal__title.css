@@ -13,3 +13,12 @@
 .baikal__title:hover {
     opacity: 0.1;
 }
+
+@media all and (max-width: 767px) {
+    .baikal__title {
+        width: 18rem;
+        height: 4.375rem;
+        font-size: 2rem;
+        line-height: 2.1875rem;
+    }
+}

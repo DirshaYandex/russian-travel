@@ -1,13 +1,11 @@
-/* @font-face {
-    src: url('путь к файлу полужирного курсива');
-    font-family: 'Inter';
-}  */
-
 .root {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #2A2C2F;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 * {

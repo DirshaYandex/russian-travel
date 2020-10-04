@@ -2,7 +2,7 @@
     margin-left: 3rem;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
     .logo_place_header {
         margin-left: 1rem;
         margin-top: 1rem;

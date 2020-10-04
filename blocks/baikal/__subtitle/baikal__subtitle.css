@@ -9,3 +9,13 @@
     text-align: center;
     margin: 2rem 0 0 0;
 }
+
+@media all and (max-width: 767px) {
+    .baikal__subtitle {
+        width: 18rem;
+        height: 3rem;
+        font-size: 0.875rem;
+        line-height: 1rem;
+        margin: 1rem 0 0 0
+    }
+}

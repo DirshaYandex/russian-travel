@@ -2,7 +2,14 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 5.75rem 3rem 1.5rem 3rem;
     min-height: 1.125rem;
 }
+
+@media all and (max-width: 767px) {
+    .footer__area {
+        display: flex;
+        flex-direction: column;
+        margin: 4rem 7.375rem 1.5rem 1rem;
+    }
+} 

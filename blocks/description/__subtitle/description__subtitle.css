@@ -1,10 +1,24 @@
 .description__subtitle {
-    max-width: 43.125rem;
-    max-height: 13.0625rem;
+    width: 43.125rem;
+    height: 13.0625rem;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
-    line-height: 163%;
+    line-height: 1.625rem;
     margin: 2.5rem 0 2rem 0;
+}
+
+@media all and (max-width: 1023px) {
+    .description__subtitle {
+        width: 45rem;
+        height: 13.0625rem;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .description__subtitle {
+        width: 18rem;
+        height: 32.625rem;
+    }
 }

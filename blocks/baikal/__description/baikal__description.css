@@ -9,3 +9,9 @@
     transform: translate(-50%, -50%);
     pointer-events: none;
 }
+
+@media all and (max-width: 767px) {
+    .baikal__description {
+        transform: translate(-50%, -15%);
+    }
+}

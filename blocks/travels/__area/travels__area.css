@@ -1,8 +1,22 @@
 .travels__area {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     color: white;
     margin: 0 9.25rem;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .travels__area {
+        margin: 0 3rem;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .travels__area {
+        margin: 0 0;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .travels__area {
+        margin: 0 -0.125rem;
+    }
 }

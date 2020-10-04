@@ -1,5 +1,4 @@
 .cards__link-title {
-    width: 28.5rem;
     height: 0.75rem;
     font-family: Inter;
     font-style: normal;
@@ -10,4 +9,16 @@
     letter-spacing: 0.2em;
     color: #AAAAAA;
     margin: 0;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .cards__link-title {
+        line-height: 0.75rem;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .cards__link-title {
+        display: none;
+    }
 }

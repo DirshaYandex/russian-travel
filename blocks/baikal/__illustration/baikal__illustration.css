@@ -10,3 +10,28 @@
 .baikal__illustration:hover {
     opacity: 0.2;
 }
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    .baikal__illustration {
+        width: 64rem;
+        height: 40rem;
+        margin: 0;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .baikal__illustration {
+        width: 48rem;
+        height: 30rem;
+        margin: 0;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .baikal__illustration {
+        width: 20rem;
+        height: 12.5rem;
+        margin: 0;
+    }
+}
+

@@ -9,3 +9,17 @@
     margin: 0;
     padding: 0;
 }
+
+@media all and (max-width: 1023px) {
+    .description__links {
+        width: 45rem;
+        height: 5.625rem;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .description__links {
+        width: 18rem;
+        height: 5.625rem;
+    }
+}
