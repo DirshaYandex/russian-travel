@@ -5,9 +5,10 @@
     justify-content: center;
     align-items: center;
     background-color: #2A2C2F;
-    font-family: 'Inter', Arial, sans-serif;
 }
 
 * {
     box-sizing: border-box;
+    font-family: Inter, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
