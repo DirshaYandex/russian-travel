@@ -1,3 +1,8 @@
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media all and (max-width: 767px) {
     .footer__links {
         display: flex;
