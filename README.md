@@ -14,5 +14,5 @@
 
 **Ссылка на Github**
 
-* [Ссылка на Github](https://github.com/DirshaYandex/russian-travel)
+* [Ссылка на Github](https://dirshayandex.github.io/russian-travel/)
 

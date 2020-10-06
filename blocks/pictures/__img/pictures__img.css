@@ -4,7 +4,7 @@
     object-fit: cover;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1280px) {
+@media all and (min-width: 1024px) and (max-width: 1279px) {
     .pictures__img {
         width: 18.75rem;
         height: 14.0625rem;  

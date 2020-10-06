@@ -1,19 +1,11 @@
 .cards__link-title {
-    height: 0.75rem;
     font-style: normal;
     font-weight: normal;
     font-size: 0.75rem;
     line-height: 0.75rem;
-    /* identical to box height, or 100% */
     letter-spacing: 0.2em;
     color: #AAAAAA;
     margin: 0;
-}
-
-@media all and (min-width: 1024px) and (max-width: 1280px) {
-    .cards__link-title {
-        line-height: 0.75rem;
-    }
 }
 
 @media all and (max-width: 767px) {

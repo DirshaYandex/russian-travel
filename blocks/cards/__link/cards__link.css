@@ -1,5 +1,4 @@
 .cards__link {
-    height: 1.375rem;
     font-style: normal;
     font-weight: normal;
     font-size: 1.125rem;
@@ -8,6 +7,10 @@
     margin-top: 0.75rem;
     color: white;
     text-decoration: underline;
+}
+
+.cards__link:hover {
+    opacity: 0.8;
 }
 
 @media all and (max-width: 767px) {

@@ -8,7 +8,9 @@
     line-height: 1.125rem;
 }
 
-
+.footer__link:hover {
+    opacity: 0.8;
+}
 
 @media all and (max-width: 767px) {
     .footer__link {

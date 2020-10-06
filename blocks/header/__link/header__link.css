@@ -1,15 +1,13 @@
 .header__link {
     color: white;
     margin-right: 1.125rem;
+    text-decoration: none;
 }
 
 .header__link:last-of-type {
     margin-right: 0;
 }
 
-@media all and (max-width: 767px) {
-    .header__link {
-        width: 1.375rem;
-        height: 1.25rem;
-    }
+.header__link:hover {
+    opacity: 0.8;
 }

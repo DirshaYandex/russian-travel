@@ -1,11 +1,36 @@
-.root {
+html {
     display: flex;
-    min-height: 100vh;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #2A2C2F;
 }
+
+.root {
+    min-height: 100vh;
+    max-width: 1280px;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+    .root {
+        max-width: 1024px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+    .root {
+        max-width: 768px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .root {
+        max-width: 320px;
+    }
+}
+
+
 
 * {
     box-sizing: border-box;

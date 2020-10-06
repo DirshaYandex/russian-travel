@@ -1,6 +1,4 @@
 .description__title {
-    width: 43.125rem;
-    height: 3.625rem;
     font-style: normal;
     font-weight: 900;
     font-size: 3.375rem;
@@ -8,17 +6,8 @@
     margin: 0;
 }
 
-@media all and (max-width: 1023px) {
-    .description__title {
-        width: 45rem;
-        height: 3.625rem;
-    }
-}
-
 @media all and (max-width: 767px) {
     .description__title {
-        width: 18rem;
-        height: 4.375rem;
         font-size: 2rem;
         line-height: 2.1875rem;
     }

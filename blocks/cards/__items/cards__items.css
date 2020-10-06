@@ -2,7 +2,7 @@
     margin: 0 9.25rem;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1280px) {
+@media all and (min-width: 1024px) and (max-width: 1279px) {
     .cards__items {
         margin: 0 3rem;
         width: 58rem;

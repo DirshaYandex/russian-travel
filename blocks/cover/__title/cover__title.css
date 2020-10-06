@@ -1,6 +1,4 @@
-.baikal__title {
-    width: 35rem;
-    height: 9.5rem;
+.cover__title {
     font-style: normal;
     font-weight: 900;
     font-size: 4.5rem;
@@ -9,14 +7,12 @@
     margin: 0;
 }
 
-.baikal__title:hover {
-    opacity: 0.1;
+.cover__title:hover {
+    opacity: 0.2;
 }
 
 @media all and (max-width: 767px) {
-    .baikal__title {
-        width: 18rem;
-        height: 4.375rem;
+    .cover__title {
         font-size: 2rem;
         line-height: 2.1875rem;
     }
