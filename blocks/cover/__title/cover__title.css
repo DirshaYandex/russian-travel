@@ -7,9 +7,6 @@
     margin: 0;
 }
 
-.cover__title:hover {
-    opacity: 0.2;
-}
 
 @media all and (max-width: 767px) {
     .cover__title {
