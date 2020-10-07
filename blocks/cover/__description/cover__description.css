@@ -17,5 +17,8 @@
 @media all and (max-width: 767px) {
     .cover__description {
         width: 18rem;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
