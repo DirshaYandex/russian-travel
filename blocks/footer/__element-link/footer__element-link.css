@@ -1,0 +1,13 @@
+.footer__element-link {
+    list-style: none;
+}
+
+@media all and (max-width: 767px) {
+    .footer__element-link {
+        margin-top: 2rem;
+    }
+
+    .footer__element-link:first-child {
+        margin-top: 0;
+    }
+}

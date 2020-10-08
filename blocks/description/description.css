@@ -5,6 +5,7 @@
     align-items: center;
     color: white;
     padding: 5.75rem 27.625rem 0 9.25rem;
+    box-sizing: border-box;
 }
     
 @media all and (min-width: 1024px) and (max-width: 1279px) {
@@ -15,13 +16,13 @@
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
     .description {
-        padding: 5.75rem 1.5rem 0 1.5rem;
+        padding: 5.5rem 1.5rem 0 1.5rem;
     }
 }
 
 @media all and (max-width: 767px) {
     .description{
-        padding: 5.75rem 1rem 0 1em;
+        padding: 4rem 1rem 0 1em;
     }
 }
     

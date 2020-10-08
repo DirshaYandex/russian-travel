@@ -16,10 +16,5 @@
     .footer__link {
         font-size: 1.5rem;
         line-height: 1.5rem;
-        margin-top: 2rem;
-    }
-
-    .footer__link:first-child {
-        margin-top: 0;
     }
 }
