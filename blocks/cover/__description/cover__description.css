@@ -8,13 +8,13 @@
     padding: 15.3125rem 19.5rem 15.3125rem 19.5rem;
     position: relative;
     pointer-events: none;
-    margin-left: 3rem;
+    margin: 0;
 }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
     .cover__description {
         padding: 12.1875rem 14.5rem 12.1875rem 14.5rem;
-        margin-left: 0;
+        margin: 0;
     }
 }
 
