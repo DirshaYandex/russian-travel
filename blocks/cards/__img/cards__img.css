@@ -19,7 +19,7 @@
 
 @media all and (max-width: 767px) {
     .cards__img {
-        width: 18rem;
-        height: 18rem;
+        width: 20rem;
+        height: 20rem;
     }
 }

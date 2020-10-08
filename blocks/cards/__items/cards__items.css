@@ -18,6 +18,6 @@
 
 @media all and (max-width: 767px) {
     .cards__items {
-        margin: 0 1rem;
+        margin: 0;
     }
 }
