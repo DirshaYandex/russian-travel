@@ -11,13 +11,11 @@
 @media all and (min-width: 768px) and (max-width: 1023px) {
     .description__links {
         width: 45rem;
-        height: 5.625rem;
     }
 }
 
 @media all and (max-width: 767px) {
     .description__links {
         width: 18rem;
-        height: 5.625rem;
     }
 }
